@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            width: 500px;
+            margin: 100px auto;
+        }
+
+        .wrapper img {
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <button onclick="document.getElementById('light').src='images/pic_bulboff.gif'">light off</button>
+        <img id="light" src="images/pic_bulboff.gif" alt="">
+        <button onclick="document.getElementById('light').src='images/pic_bulbon.gif'">light on</button>
+    </div>
+</body>
+
+</html>
